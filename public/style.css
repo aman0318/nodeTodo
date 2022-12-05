@@ -1,0 +1,37 @@
+body{
+    background: #ffeeee;
+    text-align: center; 
+}
+.container{
+    max-width: 50%;
+    align-self: center;
+    color: white;
+    background: black;
+    margin-top: 50px;
+}
+.todoContainer{
+    margin: auto;
+    padding: 5%;
+    max-width: 70%;
+}
+.btn-outline-dark{
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+    text-align: start;
+    margin-left: -35px;
+}
+li{
+    background-color: white;
+    padding: 5px 17px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 6px 0px;
+    color: grey;
+    font-weight: 600;
+}
+li:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
